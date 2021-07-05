@@ -396,3 +396,118 @@ header .right-side-menu .sub-menu button:hover {
   height: inherit;
   margin: 0;
 }
+/*========================= Our 5th Section styles==================== */
+#section-five .left-side img {
+  margin-left: 0;
+}
+#section-five .right-side {
+  justify-content: flex-start;
+  padding-top: 5rem;
+}
+#section-five .right-side h2 {
+  width: 55rem;
+  font-size: 4rem;
+  line-height: 6.3rem;
+}
+#section-five .right-side h3 {
+  text-transform: none;
+  line-height: 4rem;
+}
+#section-five .right-side p {
+  line-height: 3rem;
+}
+.fa-heart {
+  color: #fe7649;
+}
+/*========================= Our Footer Section styles==================== */
+footer {
+  width: 100%;
+  background: var(--background-color);
+  height: auto;
+  padding: 5rem 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer img {
+  width: 13rem;
+  height: 5.5rem;
+}
+footer .footer-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 2rem;
+}
+footer div h4 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+footer div a {
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+footer .footer-div-5 a {
+  font-size: 1.1rem;
+}
+
+/*====================== Our Social Icons==================== */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  z-index: 10;
+}
+.icon-bar a {
+  width: 18rem;
+  background: #4b709e;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transform: translateX(-14.5rem);
+  -webkit-transform: translateX(-14.5rem);
+  -moz-transform: translateX(-14.5rem);
+  -ms-transform: translateX(-14.5rem);
+  -o-transform: translateX(-14.5rem);
+  text-transform: capitalize;
+}
+.icon-bar a:hover {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.icon-bar a .fab {
+  padding-left: 1rem;
+  font-size: 3rem;
+  animation: letszoom 3s linear alternate-reverse infinite;
+  -webkit-animation: letszoom 3s linear alternate-reverse infinite;
+}
+@keyframes letszoom {
+  from {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
